@@ -8,7 +8,7 @@ const { Controller } = require('egg');
  * @augments {Controller}
  */
 class HomeController extends Controller {
-  async index(){
+  async index() {
     this.ctx.body = 'hi, egg';
   }
   // 批量插入文档
