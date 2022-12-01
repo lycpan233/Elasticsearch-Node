@@ -3,8 +3,9 @@
 /**
  * @param {Egg.Application} app - egg application
  */
-module.exports = app => {
+module.exports = app => { 
   const { router, controller } = app;
+  router.get('/',controller.home.index);
   // 批量插入文档
   router.get('/bulk/insert', controller.home.bulkInsert);
   // 查看索引
