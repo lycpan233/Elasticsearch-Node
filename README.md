@@ -1,5 +1,5 @@
 # Elasticsearch-Node
-> 本文 demo 是基于 egg 框架实现的 Elasticsearch 的一些基本调用
+> 该 demo 是基于 egg 框架实现的 Elasticsearch 的一些基本调用
 使用需要配置好 Elasticsearch 本文案例使用的版本为 7.17.5
 
 
